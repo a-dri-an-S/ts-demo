@@ -1,0 +1,44 @@
+.modem-lock-b-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-info-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 480px;
+    height: 320px;
+    border-radius: 12px;
+    background-color: rgb(65, 90, 122);
+    box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, 0.068);
+
+}
+
+
+.back-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: rgb(52, 74, 114);
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(95, 146, 104);
+    box-shadow: 1px 1px 24px 6px rgba(0, 0, 0, 0.267);
+}
+.back-btn:hover {
+    cursor: pointer;
+    background-color: rgb(86, 160, 99);
+    box-shadow: 1px 1px 36px 8px rgba(0, 0, 0, 0.267);
+}
+.back-btn:active {
+    color: white;
+    background-color: rgb(64, 168, 83);
+    box-shadow: 1px 1px 36px 8px rgba(122, 160, 73, 0.267);
+}
