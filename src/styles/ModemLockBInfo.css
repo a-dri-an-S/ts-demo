@@ -9,12 +9,13 @@
 
 .b-info-card {
     padding: 20px;
+    height: 320px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 480px;
-    height: 320px;
+    color: rgb(215, 229, 245);
     border-radius: 12px;
     background-color: rgb(65, 90, 122);
     box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, 0.068);
